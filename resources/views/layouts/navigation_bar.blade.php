@@ -15,7 +15,7 @@
                 <li> <a class="page-scroll" href="#team">Team</a> </li>
                 <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
                 <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-                <li> <a class="page-scroll" href="index-ar.html">عربى</a> </li>
+                <li> <a class="page-scroll" href="ar">عربى</a> </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

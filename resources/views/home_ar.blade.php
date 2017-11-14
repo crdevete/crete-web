@@ -74,7 +74,7 @@
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden"> <a href="#page-top"></a> </li>
-                <li> <a class="page-scroll" href="index.html">English</a> </li>
+                <li> <a class="page-scroll" href="/">English</a> </li>
                 <li> <a class="page-scroll" href="#contact">تواصل معنا</a> </li>
                 <li> <a class="page-scroll" href="#testimonials">اراء عملائنا</a> 
                 </li><li> <a class="page-scroll" href="#team">فريقنا</a> </li>

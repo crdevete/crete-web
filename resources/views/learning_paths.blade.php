@@ -52,7 +52,7 @@
                                             <div class="info sub-learn">
                                                 <h4 class="text-center sub-info sub-learn">Front-End Development</h4>
                                                 <p class="sub-learn">Front-end web development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front-end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.</p>
-                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                                <a href="{{ route('frontend') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                             </div>
                                         </div>
                                     </div>
@@ -66,7 +66,7 @@
                                             <div class="info sub-learn">
                                                 <h4 class="text-center sub-info sub-learn">Back-End Development</h4>
                                                 <p class="sub-learn">A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system. Back-end developers also create and maintain the entire back-end of a system, which consists of the core application logic, databases, data and application integration, API and other back-end processes.</p>
-                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                                <a href="{{ route('backend') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                             </div>
                                         </div>
                                     </div>
@@ -87,7 +87,7 @@
                                             <div class="info sub-learn">
                                                 <h4 class="text-center sub-info sub-learn">Full-Stack Development</h4>
                                                 <p class="sub-learn">Being a full-stack developer requires you to know about all the front-end technologies and all the back-end technologies. Such technologies like JavaScript, Node.js, React.js, Angular.js, JSON, MongoDB and Cloud etc. He is one person who develop websites and web applications on the front end, and work with servers and databases on the back-end Combination of both the front-end and the back-end makes you a full-stack developer.</p>
-                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                                <a href="{{ route('fullstack') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Android</h4>
                                             <p class="sub-learn">Android software development is the process by which new applications are created for devices running the Android operating system. Applications are usually developed in Java (and/or Kotlin; or other such option) programming language using the Android software development kit (SDK).</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('android') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">IOS</h4>
                                             <p class="sub-learn">The iOS SDK (Software Development Kit) (formerly iPhone SDK) is a software development kit developed by Apple Inc. The kit allows for the development of mobile apps on Apple's iOS operating system.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('ios') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -486,9 +486,9 @@
                                             <span class="fa fa-2x fa-shopping-cart sub-learn"></span>
                                         </div>
                                         <div class="info sub-learn">
-                                            <h4 class="text-center sub-info sub-learn">Sales Management </h4>
-                                            <p class="sub-learn">Sales management is a business discipline which is focused on the practical application of sales techniques and the management of a firm's sales operations.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <h4 class="text-center sub-info sub-learn">business Management </h4>
+                                            <p class="sub-learn">business management is a business discipline which is focused on the practical application of sales techniques and the management of a firm's sales operations.</p>
+                                            <a href="{{route('business')}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -505,7 +505,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Digital Marketing</h4>
                                             <p class="sub-learn">Digital marketing is the marketing of products or services using digital technologies, mainly on the Internet, but also including mobile phones, display advertising, and any other digital medium.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{route('marketing')}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>

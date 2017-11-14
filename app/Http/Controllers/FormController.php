@@ -55,8 +55,7 @@ class FormController extends Controller
     }
     public function getFormArabic()
     {
-
-        return view('form');
+        return view('form_ar');
 
     }
 
