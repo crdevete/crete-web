@@ -49,36 +49,38 @@
             <hr>
         </div>
 
+        {!! Form::open(['method'=>'POST','action'=>'FormController@postFormArabic'])  !!}
+
         <div class="row">
             <div class="form-group">
                 <div class="col-lg-6">
-                    <input required type="text" class="form-control Arabic" placeholder="الإسم الأخير">
+                    <input required type="text" class="form-control Arabic" placeholder="الإسم الأخير" name="first_name">
                 </div>
                 <div class="col-lg-6">
-                    <input required type="text" class="form-control Arabic" placeholder="الإسم الأول">
+                    <input required type="text" class="form-control Arabic" placeholder="الإسم الأول" name="last_name">
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="col-lg-12 Arabic">
-                    <input required type="email" class="form-control Arabic" aria-describedby="emailHelp" placeholder="البريد الالكترونى">
+                    <input required type="email" class="form-control Arabic" aria-describedby="emailHelp" placeholder="البريد الالكترونى" name="email">
                     <small id="emailHelp" class="form-text text-muted">.لن يتم مشاركة بريدك الالكترونى مع أى جهة أخرى</small>
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="col-lg-12 Arabic">
-                    <input type="text" class="form-control Arabic" placeholder="(رابط صفحتك الشخصية (اختيارى">
+                    <input type="text" class="form-control Arabic" placeholder="(رابط صفحتك الشخصية (اختيارى" name="social_profile">
                     <small id="emailHelp" class="form-text text-muted">... مثل : فيسبوك , تويتر </small>
                 </div>
             </div>
             <div class="form-group">
 
                 <div class="col-lg-2">
-                    <input required type="text" class="form-control Arabic" placeholder="السن">
+                    <input required type="text" class="form-control Arabic" placeholder="السن" name="age">
                 </div>
                 <div class="col-lg-4 Arabic">
-                    <select required class="form-control Arabic-select">
+                    <select required class="form-control Arabic-select" name="city">
                         <option disabled selected>المدينة :</option>
                         <option>القاهرة</option>
                         <option>الجيزة</option>
@@ -112,7 +114,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <input type="text" class="form-control Arabic" placeholder="(موبايل (اختيارى">
+                    <input type="text" class="form-control Arabic" placeholder="(موبايل (اختيارى" name="phone">
                 </div>
             </div>
 
@@ -122,13 +124,13 @@
 
 
                 <div class="col-lg-5">
-                    <input id="gradyear" type="text" class="form-control" placeholder="سنة التخرج">
+                    <input id="gradyear" type="text" class="form-control" placeholder="سنة التخرج" name="graduation_year">
 
                 </div>
 
 
                 <div class="col-lg-7 right-float">
-                    <select required class="form-control Arabic-select" id="seljob">
+                    <select required class="form-control Arabic-select" id="seljob" name="current_job">
                         <option disabled selected >الوظيفة الحالية :</option>
                         <option>طالب مدرسى</option>
                         <option>طالب جامعى</option>
@@ -140,7 +142,7 @@
                 </div>
 
                 <div class="col-lg-5">
-                    <input id="otherjob" type="text" class="form-control Arabic" placeholder="اذكر من فضلك">
+                    <input id="otherjob" type="text" class="form-control Arabic" placeholder="اذكر من فضلك" name="other_job">
 
                 </div>
 
@@ -149,7 +151,7 @@
             <div class="form-group" id="school">
 
                 <div class="col-lg-6">
-                    <select class="form-control Arabic-select" id="selstage">
+                    <select class="form-control Arabic-select" id="selstage" name="school_stage">
                         <option disabled selected>المرحلة :</option>
                         <option>الإعدادية</option>
                         <option>الثانوية</option>
@@ -158,7 +160,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <input type="text" class="form-control Arabic" placeholder="إسم المدرسة">
+                    <input type="text" class="form-control Arabic" placeholder="إسم المدرسة" name="school_name">
 
                 </div>
 
@@ -168,7 +170,7 @@
             <div class="form-group" id="undergraduate">
 
                 <div class="col-lg-6">
-                    <select class="form-control Arabic-select" id="selFaculty">
+                    <select class="form-control Arabic-select" id="selFaculty" name="faculty">
                         <option disabled selected>كلية :</option>
                         <option>الهندسة</option>
                         <option>الحاسبات و المعلومات</option>
@@ -182,7 +184,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <select class="form-control Arabic-select" id="selUniversity">
+                    <select class="form-control Arabic-select" id="selUniversity" name="university">
                         <option disabled selected>جامعة :</option>
                         <option>القاهرة</option>
                         <option>عين شمس</option>
@@ -203,27 +205,27 @@
             <div id="mentionotherstudent" class="form-group">
 
                 <div class="col-lg-6">
-                    <input id="otherFaculty" type="text" class="form-control Arabic" placeholder="من فضلك اذكرها">
+                    <input id="otherFaculty" type="text" class="form-control Arabic" placeholder="من فضلك اذكرها" name="other_faculty">
 
                 </div>
                 <div class="col-lg-6">
-                    <input id="otherUniversity" type="text" class="form-control Arabic" placeholder="من فضلك اذكرها">
+                    <input id="otherUniversity" type="text" class="form-control Arabic" placeholder="من فضلك اذكرها" name="other_university">
 
                 </div>
             </div>
 
             <div class="form-group" id="work">
                 <div class="col-lg-3">
-                    <input id="otherFaculty" type="text" class="form-control Arabic" placeholder="سنوات الخبرة">
+                    <input id="otherFaculty" type="text" class="form-control Arabic" placeholder="سنوات الخبرة" name="years_of_experience">
 
                 </div>
 
                 <div class="col-lg-5">
-                    <input id="otherUniversity" type="text" class="form-control Arabic" placeholder="المهنة">
+                    <input id="otherUniversity" type="text" class="form-control Arabic" placeholder="المهنة" name="job_role">
 
                 </div>
                 <div class="col-lg-4">
-                    <input id="otherFaculty" type="text" class="form-control Arabic" placeholder="الشركة">
+                    <input id="otherFaculty" type="text" class="form-control Arabic" placeholder="الشركة" name="company">
 
                 </div>
 
@@ -234,8 +236,8 @@
                 <div class="col-lg-4">
 
                     <div class="right-float">
-                        <label class="radio-inline"><input type="radio" name="radio" id="nofreelancer">لا</label>
-                        <label class="radio-inline "><input type="radio" required name="radio" id="yesfreelancer">نعم</label>
+                        <label class="radio-inline"><input type="radio" name="freelancer_before" id="nofreelancer" value="لا">لا</label>
+                        <label class="radio-inline "><input type="radio" required name="freelancer_before" id="yesfreelancer" value="نعم">نعم</label>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -246,16 +248,11 @@
             </div>
 
             <div class="form-group" id="freelancer">
-
-
-
                 <div class="col-lg-6">
-                    <input id="otherjobtitle" type="text" class="form-control Arabic" placeholder="اذكرها من فضلك">
-
-
+                    <input id="otherjobtitle" type="text" class="form-control Arabic" placeholder="اذكرها من فضلك" name="other_freelancing_job">
                 </div>
                 <div class="col-lg-6">
-                    <select class="form-control Arabic-select" id="seljobtitle">
+                    <select class="form-control Arabic-select" id="seljobtitle" name="freelancing_Job">
                         <option disabled selected>الوظيفة :</option>
                         <option>مطور مواقع</option>
                         <option>مطور برامج موبايل</option>
@@ -273,11 +270,10 @@
                 <div id="freelancerwebsites">
 
                     <div class="col-lg-5">
-                        <input type="text" class="form-control Arabic" placeholder="رابط ملفك الشخصى">
-
+                        <input type="text" class="form-control Arabic" placeholder="رابط ملفك الشخصى" name="websites_link">
                     </div>
                     <div class="col-lg-7 right-float Arabic">
-                        <input id="otherUniversity" type="text" class="form-control Arabic" placeholder="المواقع التى تعمل عليها">
+                        <input id="otherUniversity" type="text" class="form-control Arabic" placeholder="المواقع التى تعمل عليها" name="freelancing_websites">
                         <small id="emailHelp" class="form-text  text-muted"> Upwork, Freelancer مثل</small>
                     </div>
                 </div>
@@ -289,31 +285,24 @@
             <div class="form-group">
 
                 <div class="col-lg-12">
-
-
-
-                    <textarea placeholder="..لديك تعليق ؟ من فضلك شاركنا تعليقك هنا" class="form-control Arabic" rows="8" id="comment"></textarea>
-
+                    <textarea placeholder="..لديك تعليق ؟ من فضلك شاركنا تعليقك هنا" class="form-control Arabic" rows="8" id="comment" name="comment"></textarea>
                 </div>
-
-
             </div>
 
 
 
             <form id="captchasubmit" action="?" method="POST">
-                <div class="row">
+               <!-- <div class="row">
                     <div class="col-lg-12">
-
-
                         <div class="g-recaptcha" data-sitekey="6LcKFTQUAAAAAL4ao-dFItf0nr42kZjnMZZdkLNA"></div>
                     </div>
                 </div>
+                -->
                 <div class="col-lg-12">
-
-
-                    <button id="submitform" type="button" class="btn btn-primary">انضم إلينا</button>
+                    <button id="submitform" type="submit" class="btn btn-primary">انضم إلينا</button>
                 </div>
+
+                {!! Form::close() !!}
             </form>
         </div>
     </div>

@@ -27,7 +27,6 @@ class FormController extends Controller
         return redirect()->route('FormThankYou');
     }
 
-
     public function show($id)
     {
         //
