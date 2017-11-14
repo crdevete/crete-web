@@ -27,19 +27,15 @@
 
 
 
-
-
-
-
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="{{asset('css/bootstrap.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('fonts/font-awesome/css/font-awesome.css')}}">
 
     <!-- Stylesheet
         ================================================== -->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" type="text/css"  href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/prettyPhoto.css')}}">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 
 
@@ -67,18 +63,18 @@
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-            <a class="navbar-brand page-scroll" href="#page-top"> <img width="40" height="40" src="img/CRETE_white.png" class="d-inline-block align-top"> <p class="brand-name">CRETE</p></a> </div>
+            <a class="navbar-brand page-scroll" href="#page-top"> <img width="40" height="40" src="{{url('img/CRETE_white.png')}}" class="d-inline-block align-top"> <p class="brand-name">CRETE</p></a> </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden"> <a href="#page-top"></a> </li>
-                <li> <a class="page-scroll" href="/">English</a> </li>
+                <li> <a class="page-scroll" href="{{route('home')}}">English</a> </li>
                 <li> <a class="page-scroll" href="#contact">تواصل معنا</a> </li>
-                <li> <a class="page-scroll" href="#testimonials">اراء عملائنا</a> 
+                <li> <a class="page-scroll" href="#testimonials">المسارات التعليمية</a>
                 </li><li> <a class="page-scroll" href="#team">فريقنا</a> </li>
-                <li> <a class="page-scroll" href="#works">اعمالنا</a> </li>
+                <li> <a class="page-scroll" href="#works">انضم الينا</a></li>
                 <li> <a class="page-scroll" href="#services">خدماتنا</a> </li>
                 <li> <a class="page-scroll" href="#about">نحن</a> </li>
             </ul>
@@ -95,7 +91,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <h1><span class="brand-heading">CRETE</span> نحن   </h1>
-                    <p class="intro-text">.وكالة لتصميم وتطوير المواقع الالكترونية <br> !نحن نحب ما نفعل</p>
+                    <p class="intro-text">.شركة متكاملة لتصميم وتطوير المواقع الالكترونية <br> !نحن نحب ما نفعل</p>
                     <a href="#about" class="btn btn-default page-scroll">اعرف اكثر</a> </div>
             </div>
         </div>
@@ -206,107 +202,7 @@
         </div>
     </div>
 </div>
-<!-- Portfolio Section -->
-<div id="works">
-    <div class="container"> <!-- Container -->
-        <div class="section-title text-center center">
-            <h2>اعمالنا</h2>
-            <hr>
-            <div class="clearfix"></div>
-            <p></p>
-        </div>
-        <div class="categories">
-            <ul class="cat">
-                <li>
-                    <ol class="type">
-                        <li><a href="#" data-filter="*" class="active">جميع</a></li>
-                        <li><a href="#" data-filter=".lorem">تصميم المواقع الالكترونية</a></li>
-                        <li><a href="#" data-filter=".consectetur">تطوير المواقع الالكترونية</a></li>
-                        <li><a href="#" data-filter=".dapibus">ووردبريس</a></li>
-                    </ol>
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-        </div>
-        <div class="row js-wp-3">
-            <div class="portfolio-items">
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur lorem">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/Three-Sixty.jpg" title="Landing page for three sixty mobile camera app" rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>360 Landing Page</h4>
-                                    <p>Web Design &amp; Development </p>
-                                </div>
-                                <img src="img/portfolio/ThreeSixty-thumbnail_tn.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur ">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/Blog.jpg" title="Blog website for gaming news, images and videos." rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>Gaming Blog</h4>
-                                    <p>Web Development</p>
-                                </div>
-                                <img src="img/portfolio/Blog-thumbnail.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur lorem">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/Astronomy.jpg" title="Astronomy Club Organization Website With multiple pages." rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>Astronomy Club Website</h4>
-                                    <p>Web Design &amp; Development</p>
-                                </div>
-                                <img src="img/portfolio/astronomy-thumbnail_tn.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/store.jpg" title="Online shop for beds and home furniture" rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>Online Store</h4>
-                                    <p>Web Development</p>
-                                </div>
-                                <img src="img/portfolio/store-thumbnail_tn.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/fashion.jpg" title="fashion store website with multiple categorizes" rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>Fashion Store</h4>
-                                    <p>Web Development</p>
-                                </div>
-                                <img src="img/portfolio/fashion-store-thumbnail_tn.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 consectetur">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/Social.jpg" title="A simple Social network Website" rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>Social Network</h4>
-                                    <p>Web Development</p>
-                                </div>
-                                <img src="img/portfolio/Social-thumb.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 dapibus">
-                    <div class="portfolio-item">
-                        <div class="hover-bg"> <a href="img/portfolio/positive-mondo.jpg" title="Positive Mondo is a Lebanese magazine for positive news." rel="prettyPhoto">
-                                <div class="hover-text">
-                                    <h4>Positive Mondo</h4>
-                                    <p>Wordpress</p>
-                                </div>
-                                <img src="img/portfolio/positivemondo-thumbnail_tn.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 lorem">
-                    <!--ADD NEW ITEM HERE-->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- Team Section -->
 <div id="team" class="text-center">
     <div class="container">
@@ -320,7 +216,7 @@
 
 
             <div class="col-md-4 col-sm-12 col-xs-12 js-wp-2">
-                <div class="thumbnail"> <img src="img/team/Roz.jpg" alt="..." class="img-thumbnail team-img">
+                <div class="thumbnail"> <img src="{{url('img/team/Roz.jpg')}}" alt="..." class="img-thumbnail team-img">
                     <div class="caption">
                         <h3>محمد علي</h3>
                         <p>Business Manager <br> Backend &amp; Database Developer</p>
@@ -330,7 +226,7 @@
 
 
             <div class="col-md-4 col-sm-12 col-xs-12 js-wp-2">
-                <div class="thumbnail"> <img src="img/team/Bana.jpg" alt="..." class="img-thumbnail team-img">
+                <div class="thumbnail"> <img src="{{url('img/team/Bana.jpg')}}" alt="..." class="img-thumbnail team-img">
                     <div class="caption">
                         <h3>احمد البنا</h3>
                         <p>Front End Web Developer</p>
@@ -339,7 +235,7 @@
             </div>
 
             <div class="col-xs-12 col-md-4 col-sm-12 js-wp-2">
-                <div class="thumbnail"> <img src="img/team/Saber.jpg" alt="..." class="img-thumbnail team-img">
+                <div class="thumbnail"> <img src="{{url('img/team/Saber.jpg')}}" alt="..." class="img-thumbnail team-img">
                     <div class="caption">
                         <h3>مصطفى صابر</h3>
                         <p>Backend Developer</p>
@@ -350,47 +246,58 @@
         </div>
     </div>
 </div>
-
-<!-- Testimonials Section -->
-<div id="testimonials" class="text-center">
-    <div class="container">
-        <div class="section-title center">
-            <h2>ماذا يقول عنا عملائنا</h2>
+<!-- Paths Section -->
+<div id="works">
+    <div class="container"> <!-- Container -->
+        <div class="section-title text-center center">
+            <h2>المسارات التعليمية</h2>
             <hr>
+            <div class="clearfix"></div>
+            <p></p>
         </div>
-        <div class="row js-wp-4">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row testimonials">
-                    <div class="col-sm-4">
-                        <blockquote><i class="fa fa-quote-left"></i>
-                            <p>Ahmed, is a great soul before being a great web specialist, extremely sharp, active and fast, he was always on time even before due time, i recommend all clients to work with ahmed as he will meet all your criteria and find solutions for it, with ahmed u gain a soul not only a contractual.
-                                thank you ahmed for making positive mondo my magazine, shine like ever.</p>
-                            <div class="clients-name">
-                                <p><strong>Jad Mehanna</strong><br>
-                                    <em>Pianist,Composer and Music arranger</em></p>
-                            </div>
-                        </blockquote>
-                    </div>
-                    <div class="col-sm-4">
-                        <blockquote><i class="fa fa-quote-left"></i>
-                            <p>Mohammed Ali, is well skilled at what he does and is a true professional. One of the best freelancers of this site. I would work with him again if I had another project.</p>
-                            <div class="clients-name">
-                                <p><strong>Jallah</strong><br>
-                                    <em>CEO, Company Inc.</em></p>
-                            </div>
-                        </blockquote>
-                    </div>
-                    <div class="col-sm-4">
-                        <blockquote><i class="fa fa-quote-left"></i>
-                            <p>Brilliant work again, took much less time than expected and the freelancer only charged the time it took, so honest and professional. Already rehired for more work and hope to make it long term when possible.</p>
-                            <div class="clients-name">
-                                <p><strong>Chris Smith</strong><br>
-                                    <em>CEO, Company Inc.</em></p>
-                            </div>
-                        </blockquote>
-                    </div>
+        <!--<div class="categories">
+            <ul class="cat">
+                <li>
+                    <ol class="type">
+                        <li><a href="#" data-filter="*" class="active">All</a></li>
+                        <li><a href="#" data-filter=".lorem">Web Design</a></li>
+                        <li><a href="#" data-filter=".consectetur">Web Development</a></li>
+                        <li><a href="#" data-filter=".dapibus">Wordpress</a></li>
+                    </ol>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>-->
+        <div class="row js-wp-3 text-center">
+            <div class="portfolio-items">
+                <div class="dapibus">
+                    <h4 id="learning_paths">نحن نقدم لك مسارات تعليمية متكاملة تحت اشرافنا تساعدك لتعلم المهارات المطلوبة بالطريقة الصحيحة</h4>
+                </div>
+                <br>
+                <a type="submit" class="btn btn-default" href="{{route('learningPaths')}}">إبدا رحلتك الان</a>
+                <br>
+                <br>
+                <div class="row course-facebook">
+                    <small id="coursesHelp" class="form-text text-muted"> من فضلك تابع <a style="color: #3B5998" target="_blank" href="{{url('https://www.facebook.com/groups/1935149636805516')}}">جروب الفيسبوك<i style="color: #3B5998" class="fa fa-facebook-square" aria-hidden="true"></i></a>للتعليم علي الانترنت</small>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<!-- Join Us Section -->
+<!-- Join Us Section -->
+<div id="testimonials" class="text-center " >
+    <div class="container">
+        <div class="section-title center">
+            <h2>انضم الينا</h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="center">
+                <p id="joinUs">من أجل البقاء على اتصال معنا، يمكنك ملء هذا النموذج، وسوف نكون علي اتصال بك بك عند حدوث التوظيف</p>
+            </div>
+            <br>
+            <a type="submit" class="btn btn-default" href="{{url('/form-ar')}}">إنضم إلينا</a>
         </div>
     </div>
 </div>
@@ -465,19 +372,19 @@
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="{{asset('js/jquery.1.11.1.js')}}"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/SmoothScroll.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/jquery.parallax.js"></script>
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script type="text/javascript" src="js/contact_me.js"></script>
-<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="{{asset('js/bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/SmoothScroll.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jquery.isotope.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jquery.parallax.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jqBootstrapValidation.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/contact_me.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/jquery.waypoints.min.js')}}"></script>
 
 <!-- Javascripts
     ================================================== -->
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="{{asset('js/main.js')}}"></script>
 </body>
 </html>

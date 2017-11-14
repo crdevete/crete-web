@@ -18,6 +18,10 @@ Route::get('/ar','HomeController@HomePageArabic')->name('homeArabic');
 
 Route::get('/survey','HomeController@getSurvey')->name('survey');
 
+Route::get('/survey-ar','HomeController@getSurveyArabic')->name('surveyArabic');
+
+Route::post('/survey-ar','HomeController@postSurveyArabic');
+
 Route::post('/survey','HomeController@postSurvey');
 
 Route::resource('/form','FormController');
@@ -31,6 +35,8 @@ Route::get('/thankYou','FormController@redirect')->name('FormThankYou');
 Route::get('/thankYouAr','FormController@thankYouRedirectArabic')->name('FormThankYouArabic');
 
 Route::get('/thank_you','HomeController@redirect')->name('SurveyThankYou');
+
+Route::get('/thank_you_ar','HomeController@redirectArabic')->name('SurveyThankYouArabic');
 
 Route::get('/learningPaths','HomeController@learningPaths')->name('learningPaths');
 

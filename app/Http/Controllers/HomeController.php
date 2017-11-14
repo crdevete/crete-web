@@ -23,6 +23,12 @@ class HomeController extends Controller
 
     }
 
+    public function getSurveyArabic(){
+
+        return view('survey_ar');
+
+    }
+
     public function postSurvey(Request $request){
 
         $survey  = $request->all();
@@ -32,12 +38,28 @@ class HomeController extends Controller
         return redirect()->route('SurveyThankYou');
 
     }
+    public function postSurveyArabic(Request $request){
+
+        $survey  = $request->all();
+
+        Survey::create($survey);
+
+        return redirect()->route('SurveyThankYouArabic');
+
+    }
 
     public function redirect(){
 
         return view('survey_thank_you');
 
     }
+
+    public function redirectArabic(){
+
+        return view('survey_thank_you_ar');
+
+    }
+
 
     public function HomePageArabic(){
 

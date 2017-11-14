@@ -56,7 +56,7 @@
                                             <div class="info sub-learn">
                                                 <h4 class="text-center sub-info sub-learn">Back-End Development</h4>
                                                 <p class="sub-learn">A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system. Back-end developers also create and maintain the entire back-end of a system, which consists of the core application logic, databases, data and application integration, API and other back-end processes.</p>
-                                                <a href="{{ route('backend') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                                <a href="{{route('backend')}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                             </div>
                                         </div>
                                     </div>

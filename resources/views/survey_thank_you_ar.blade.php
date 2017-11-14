@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>شكرا</title>
+    <title>شكرا لك</title>
     <link rel="shortcut icon" type="image/png" href="{{url('img/CRETE_icon.png')}}" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -28,9 +28,8 @@
     <![endif]-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-
 <body id="form-body">
-<div id="preloader">
+<!--<div id="preloader">
     <div class="spinner">
         <div class="rect1"></div>
         <div class="rect2"></div>
@@ -38,28 +37,27 @@
         <div class="rect4"></div>
         <div class="rect5"></div>
     </div>
+
 </div>
+-->
 <div class="fullscreen_bg">
 
     <div class="panel">
 
         <div class="row">
+
             <div class="col-lg-12">
-                <a href="{{route('homeArabic')}}" id="panel-header-form"><img id="form-logo" src="{{url('img/CRETE_icon.png')}}"><h4 id="panel-header-text">Crete شركة</h4></a>
+                <a href="{{route('home')}}" id="panel-header-form"><img id="form-logo" src="{{url('img/CRETE_icon.png')}}"><h4 id="panel-header-text">Crete شركة</h4></a>
             </div>
+
             <hr>
         </div>
         <div class="row" id="thank_you">
             <div class="col-lg-12">
-                <h4>!! شكرا على تقديمك لدينا , سنتواصل معك قريبا</h4>
+                <h4>شكرا لك علي وقتك</h4>
             </div>
             <div class="col-lg-12">
                 <img src="{{url('img/success.png')}}">
-
-            </div>
-
-            <div class="col-lg-12">
-                <h6 id="redirect-txt">هل يمكننا الحصول على بعض الدقائق من وقتك للإجابة على استطلاعنا ؟ شكرا جزيلا و سيتم تحويلك الأن</h6>
             </div>
         </div>
 
@@ -72,8 +70,6 @@
 <script type="text/javascript" src="{{asset('js/jquery.1.11.1.js')}}"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="{{asset('js/bootstrap.js')}}"></script>
-<script>setTimeout(function(){window.location.href='{{route('survey')}}'},5000);</script>
-
 
 
 <!-- Javascripts
