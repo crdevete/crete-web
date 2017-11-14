@@ -83,6 +83,19 @@ $(document).click(function(e){
 
                     }
                     break;
+                case "طالب مدرسى":
+                    {
+                        $("#work").fadeOut("fast");
+                        $("#mentionotherstudent").fadeOut("fast");
+                        $("#gradyear").fadeOut("fast");
+                        $("#undergraduate").fadeOut("fast");
+                        $("#otherjob").fadeOut("fast");
+                        $("#otherUniversity").fadeOut("fast");
+                        $("#otherFaculty").fadeOut("fast");
+                        $("#school").fadeIn("medium");
+
+                    }
+                    break;
                 case "Undergraduate":
                     {
                         $("#work").fadeOut("fast");
@@ -95,7 +108,31 @@ $(document).click(function(e){
 
                     }
                     break;
+                case "طالب جامعى":
+                    {
+                        $("#work").fadeOut("fast");
+                        
+                        $("#otherjob").fadeOut("fast");
+                        $("#school").fadeOut("fast");
+                        
+                        $("#undergraduate").fadeIn("medium");
+                        $("#gradyear").fadeIn("medium");
+
+                    }
+                    break;                    
                 case "Graduated":
+                    {
+                        $("#work").fadeOut("fast");
+                        
+                        $("#otherjob").fadeOut("fast");
+                        $("#school").fadeOut("fast");
+                        
+                        $("#undergraduate").fadeIn("medium");
+                        $("#gradyear").fadeIn("medium");
+
+                    }
+                    break;
+                case "خريج":
                     {
                         $("#work").fadeOut("fast");
                         
@@ -119,7 +156,32 @@ $(document).click(function(e){
                         $("#work").fadeIn("medium");
                     }
                     break;
+                case "موظف":
+                    {
+                        $("#gradyear").fadeOut("fast");
+                        $("#mentionotherstudent").fadeOut("fast");
+                        $("#undergraduate").fadeOut("fast");
+                        $("#school").fadeOut("fast");
+                        $("#otherUniversity").fadeOut("fast");
+                        $("#otherFaculty").fadeOut("fast");
+                        $("#otherjob").fadeOut("fast");
+                        $("#work").fadeIn("medium");
+                    }
+                    break;
                 case "Other":
+                    {
+                        $("#work").fadeOut("fast");
+                        $("#mentionotherstudent").fadeOut("fast");
+                        $("#gradyear").fadeOut("fast");
+                        $("#undergraduate").fadeOut("fast");
+                        $("#school").fadeOut("fast");
+                        $("#otherUniversity").fadeOut("fast");
+                        $("#otherFaculty").fadeOut("fast");
+                        $("#otherjob").fadeIn("medium");
+
+                    }
+                    break;
+                case "أخرى":
                     {
                         $("#work").fadeOut("fast");
                         $("#mentionotherstudent").fadeOut("fast");
@@ -156,6 +218,13 @@ $(document).click(function(e){
 
                     }
                     break;
+                case "أخرى":
+                    {
+                        $("#otherFaculty").fadeIn("medium");
+                        $("#mentionotherstudent").fadeIn("medium");
+
+                    }
+                    break;
                 default:
                     {
                         $("#otherFaculty").fadeOut("fast");
@@ -168,6 +237,13 @@ $(document).click(function(e){
             var selection = $(this).val();
             switch (selection) {
                 case "Other":
+                    {
+                        $("#otherUniversity").fadeIn("medium");
+                        $("#mentionotherstudent").fadeIn("medium");
+
+                    }
+                    break;
+                case "أخرى":
                     {
                         $("#otherUniversity").fadeIn("medium");
                         $("#mentionotherstudent").fadeIn("medium");
@@ -190,6 +266,12 @@ $(document).click(function(e){
             var selection = $(this).val();
             switch (selection) {
                 case "Other":
+                    {
+                        $("#otherjobtitle").fadeIn("medium");
+
+                    }
+                    break;
+                case "أخرى":
                     {
                         $("#otherjobtitle").fadeIn("medium");
 
