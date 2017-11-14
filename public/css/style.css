@@ -1162,3 +1162,8 @@ font-family: 'El Messiri', sans-serif;
     margin: 30px;
     text-align: center;
 }
+
+small#coursesHelp {
+    color: #f6ab09;
+    font-weight: 700;
+}
