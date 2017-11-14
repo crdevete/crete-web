@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Full-Stack Development</title>
-    <link rel="shortcut icon" type="image/png" href="../../../img/CRETE_icon.png" />
+    <title>Architecture</title>
+    <link rel="shortcut icon" type="image/png" href="../../img/CRETE_icon.png" />
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -48,8 +48,8 @@
 
                 <div class="col-lg-12">
 
-                    <a href="../../index.html" id="panel-header-form"><img id="form-logo" src="../../../img/CRETE_icon.png"><h4 id="panel-header-text">Crete Agency</h4></a>
-                    <h5 id="panel-header-text-small">Full-Stack Development</h5>
+                    <a href="../../index.html" id="panel-header-form"><img id="form-logo" src="../../img/CRETE_icon.png"><h4 id="panel-header-text">Crete Agency</h4></a>
+                    <h5 id="panel-header-text-small">Architecture</h5>
 
 
                 </div>
@@ -67,108 +67,120 @@
 		<div class="row">
 			<div class="[ col-xs-12 col-sm-offset-2 col-sm-12 ]">
 				<ul class="event-list">
-                    <li onclick="window.open('https://www.udemy.com/the-complete-web-developer-course-2')">
+                    <li onclick="window.open('https://www.udemy.com/revit2017/')">
 						<time>
-							<span class="hours">30</span>
+							<span class="hours">7.5</span>
 							<span class="hours-txt">Hours</span>
                             <hr class="courses-line">
 							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
                             <span class="level">Beginner</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
+						<img alt="Course Website" src="../../img/Courses/udemy.png" />
 						<div class="info">
 							
 							<div class="row curses-row">
 								<div class="col-sm-12 courses-col">
-									<h2 class="title">The Complete Web Developer Course 2.0</h2>
+									<h2 class="title">Revit 2017 Architectural Course For Beginner With Project</h2>
 								</div>
 								
 							</div>
 							<br>
 							<div class="row curses-row">
-								<div class="col-sm-12 course-description courses-col">Learn Web Development by building 25 websites and mobile apps using HTML, CSS, Javascript, PHP, Python, MySQL & more!
-</div>
+								<div class="col-sm-12 course-description courses-col">Project based Revit Course</div>
 								
 							</div>
-                       
+                        <div class="row">
+						        				
+						</div>
 						</div>
                         
                         </li>
-
-
-                                          <li onclick="window.open('https://www.lynda.com/learning-paths/Web/become-a-full-stack-web-developer')">
+					
+					<li onclick="window.open('https://www.udemy.com/architectural-visualization-fundamentals/')">
 						<time>
-							<span class="hours">76</span>
-							<span class="hours-txt">Hours</span>
-                            <hr class="courses-line">
-							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
-                            <span class="level">Beginner</span>
-							
-						</time>
-						<img alt="Course Website" src="../../../img/Courses/lynda.png" />
-						<div class="info">
-							
-							<div class="row curses-row">
-								<div class="col-sm-12 courses-col">
-									<h2 class="title">Become a Full-Stack Web Developer
-</h2>
-								</div>
-								
-							</div>
-							<br>
-							<div class="row curses-row">
-								<div class="col-sm-12 course-description courses-col">Get the skills to work with both back-end and front-end technologies as a full-stack developer. You'll develop a solid foundation for working with servers and host configurations, performing database integrations, and troubleshooting front-end development issues.
-</div>
-								
-							</div>
-                        
-						</div>
-                        
-                        </li>
-
-
-                                                    <li onclick="window.open('https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004')">
-						<time>
-							<span class="hours">73</span>
+							<span class="hours">1.5</span>
 							<span class="hours-txt">Hours</span>
                             <hr class="courses-line">
 							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
                             <span class="level">Intermediate</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../img/Courses/uacity.png" />
+						<img alt="Course Website" src="../../img/Courses/udemy.png" />
 						<div class="info">
 							
 							<div class="row curses-row">
 								<div class="col-sm-12 courses-col">
-									<h2 class="title">Full Stack Web Developer Nanodegree
-
-
-</h2>
+									<h2 class="title">3D Photorealistic Architectural Visualization</h2>
 								</div>
 								
 							</div>
 							<br>
 							<div class="row curses-row">
-								<div class="col-sm-12 course-description courses-col">This program will prepare you for a job as a Full Stack Web Developer, and teach you to build complex server-side web applications that use powerful relational databases to persistently store data.
+								<div class="col-sm-12 course-description courses-col">Free Guide For Compositing Architectural Visualization</div>
+								
+							</div>
+                        <div class="row">
+						        				
+						</div>
+						</div>
+                        
+                        </li>
 
-You’ll learn to build applications that can support any front-end, and scale to support hundreds of thousands of users.
-</div>
+                    <li onclick="window.open('https://www.lynda.com/learning-paths/CAD/become-an-architecture-cad-technician')">
+						<time>
+							<span class="hours">57</span>
+							<span class="hours-txt">Hours</span>
+                            <hr class="courses-line">
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Advanced</span>
+							
+						</time>
+						<img alt="Course Website" src="../../img/Courses/lynda.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Become an Architecture CAD Technician</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Architectural CAD technicians play a vital role in transforming architectural designs for construction professionals. Learn to create computerized blueprints with the digital tools needed for a career in the field of architecture. </div>
 								
 							</div>
                         
 						</div>
                         
                         </li>
-
-
-
-
-
-
-
-
+                         <li onclick="window.open('https://www.coursera.org/learn/designing-cities')">
+						<time>
+							<span class="hours">60</span>
+							<span class="hours-txt">Hours</span>
+                            <hr class="courses-line">
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Advanced</span>
+							
+						</time>
+						<img alt="Course Website" src="../../img/Courses/coursera.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Designing Cities</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Each module in Designing Cities will focus on a different aspect of city design including: How Today’s City Evolved; The Ideas That Shape Cities; Tools for Designing Cities; Making Cities Sustainable; Cities in the Information Age; Preserving Older Cities; Designing New Cities, Districts and Neighborhoods; The Challenges of Informal Cities and Disadvantaged Neighborhoods; and Visionary Cities.  </div>
+								
+							</div>
+                        
+						</div>
+                        
+                        </li>
 
 				</ul>
                     <div class="row course-facebook">

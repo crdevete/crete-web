@@ -79,20 +79,18 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">PHP for Beginners - Become a PHP Master - CMS Project</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">PHP for Beginners: learn everything you need to become a professional PHP developer with practical exercises & projects.</div>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">PHP for Beginners: learn everything you need to become a professional PHP developer with practical exercises & projects.</div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                       
 						</div>
                         
                         </li>
@@ -107,23 +105,21 @@
                             <span class="level">Intermediate</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../../img/Courses/udemy.png" />
+						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">The Complete MySQL Developer Course</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">MySQL: Learn how to build Reports and work with Databases for Web Applications using MySQL and PHP</div>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">MySQL: Learn how to build Reports and work with Databases for Web Applications using MySQL and PHP</div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                       
 						</div>
                         
                         </li>
@@ -139,23 +135,21 @@
                             <span class="level">Beginner</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../../img/Courses/udemy.png" />
+						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col ">
 									<h2 class="title">PHP with Laravel for beginners - Become a Master in Laravel</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Learn to master Laravel to make advanced applications like the real CMS app we build on this course.</div>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Learn to master Laravel to make advanced applications like the real CMS app we build on this course.</div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>
@@ -173,11 +167,11 @@
                             <span class="level">Beginner</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../../img/Courses/udemy.png" />
+						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Python Web Programming
 
 
@@ -186,16 +180,14 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Access and parse the web with Python
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Access and parse the web with Python
 
 
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                       
 						</div>
                         
                         </li>
@@ -218,8 +210,8 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Python and Django Full Stack Web Developer Bootcamp
 
 </h2>
@@ -227,15 +219,13 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , and Django 1.11!
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , and Django 1.11!
 
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>
@@ -260,8 +250,8 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Beginners Ruby Programming Training - No Experience Required
 
 </h2>
@@ -269,15 +259,13 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">A Ruby Programming Course Training Video. Learn Real-World Programming Techniques At Your Own Pace.
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">A Ruby Programming Course Training Video. Learn Real-World Programming Techniques At Your Own Pace.
 
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>
@@ -300,22 +288,20 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">The Complete Ruby on Rails Developer Course
 </h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Learn to make innovative web apps with Ruby on Rails and unleash your creativity
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Learn to make innovative web apps with Ruby on Rails and unleash your creativity
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                       
 						</div>
                         
                         </li>
@@ -334,8 +320,8 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Learn and Understand NodeJS
 
 </h2>
@@ -343,15 +329,13 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN stack, core Javascript concepts, and more.
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN stack, core Javascript concepts, and more.
 
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>
@@ -370,8 +354,8 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">The Complete Developers Guide to MongoDB
 
 
@@ -380,15 +364,13 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Master MongoDB and Mongoose design with a test-driven approach.
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Master MongoDB and Mongoose design with a test-driven approach.
 
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                       
 						</div>
                         
                         </li>
@@ -409,8 +391,8 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">The Complete Node.js Developer Course (2nd Edition)
 
 
@@ -419,16 +401,14 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Learn Node.js by building real-world applications with Node, Express, MongoDB, Mocha, and more!
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Learn Node.js by building real-world applications with Node, Express, MongoDB, Mocha, and more!
 
 
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>

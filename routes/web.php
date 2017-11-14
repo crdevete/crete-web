@@ -49,3 +49,19 @@ Route::post('/sendEmail','EmailController@send');
     //Business and marketing
     Route::get('/learningPaths/business','learningController@getBusiness')->name('business');
     Route::get('/learningPaths/marketing','learningController@getMarketing')->name('marketing');
+
+
+    //Design
+    Route::get('/learningPaths/Design/Logo','learningController@getLogo')->name('logo');
+    Route::get('/learningPaths/Design/Web-Mobile-UI-Ux','learningController@getUi')->name('ui-ux');
+
+
+    //Art and Animation
+    Route::get('/learningPaths/Art-Animation/Art','learningController@getArt')->name('art');
+    Route::get('/learningPaths/Art-Animation/Animations','learningController@getAnimation')->name('animation');
+
+
+    //Arch-Civil-Mechanical
+    Route::get('/learningPaths/Arch-Civil-Mechanical/Architecture','learningController@getArchitecture')->name('architecture');
+    Route::get('/learningPaths/Arch-Civil-Mechanical/Civil','learningController@getCivil')->name('civil');
+    Route::get('/learningPaths/Arch-Civil-Mechanical/Mechanical','learningController@getMechanical')->name('mechanical');

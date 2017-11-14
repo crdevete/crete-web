@@ -79,8 +79,8 @@
 						<img alt="Course Website" src="../../../img/Courses/uacity.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Become an Android Developer
 
 
@@ -90,8 +90,8 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Start your career as an Android developer. Learn best practices for mobile development, build a portfolio of apps, and publish your own app to Google Play.
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Start your career as an Android developer. Learn best practices for mobile development, build a portfolio of apps, and publish your own app to Google Play.
 
 </div>
 								
@@ -116,16 +116,16 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">How To Launch Your App In Just 16 hrs - Android Development
 </h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Learn Both Design with Photoshop and Code with Android Studio to publish your first app on the Playstore in just 16 HRS!
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Learn Both Design with Photoshop and Code with Android Studio to publish your first app on the Playstore in just 16 HRS!
 
 </div>
 								

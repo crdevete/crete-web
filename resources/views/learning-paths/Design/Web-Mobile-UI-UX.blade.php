@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Full-Stack Development</title>
+    <title>Web & Mobile UI/UX Design</title>
     <link rel="shortcut icon" type="image/png" href="../../../img/CRETE_icon.png" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -49,7 +49,7 @@
                 <div class="col-lg-12">
 
                     <a href="../../index.html" id="panel-header-form"><img id="form-logo" src="../../../img/CRETE_icon.png"><h4 id="panel-header-text">Crete Agency</h4></a>
-                    <h5 id="panel-header-text-small">Full-Stack Development</h5>
+                    <h5 id="panel-header-text-small">Web & Mobile UI/UX Design</h5>
 
 
                 </div>
@@ -67,43 +67,13 @@
 		<div class="row">
 			<div class="[ col-xs-12 col-sm-offset-2 col-sm-12 ]">
 				<ul class="event-list">
-                    <li onclick="window.open('https://www.udemy.com/the-complete-web-developer-course-2')">
+                   <li onclick="window.open('https://www.lynda.com/Photoshop-tutorials/Photoshop-CC-Web-Design/145211-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acc+for+web+designer%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2')">
 						<time>
-							<span class="hours">30</span>
+							<span class="hours">4</span>
 							<span class="hours-txt">Hours</span>
                             <hr class="courses-line">
-							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
-                            <span class="level">Beginner</span>
-							
-						</time>
-						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
-						<div class="info">
-							
-							<div class="row curses-row">
-								<div class="col-sm-12 courses-col">
-									<h2 class="title">The Complete Web Developer Course 2.0</h2>
-								</div>
-								
-							</div>
-							<br>
-							<div class="row curses-row">
-								<div class="col-sm-12 course-description courses-col">Learn Web Development by building 25 websites and mobile apps using HTML, CSS, Javascript, PHP, Python, MySQL & more!
-</div>
-								
-							</div>
-                       
-						</div>
-                        
-                        </li>
-
-
-                                          <li onclick="window.open('https://www.lynda.com/learning-paths/Web/become-a-full-stack-web-developer')">
-						<time>
-							<span class="hours">76</span>
-							<span class="hours-txt">Hours</span>
-                            <hr class="courses-line">
-							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
-                            <span class="level">Beginner</span>
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Intermediate</span>
 							
 						</time>
 						<img alt="Course Website" src="../../../img/Courses/lynda.png" />
@@ -111,64 +81,111 @@
 							
 							<div class="row curses-row">
 								<div class="col-sm-12 courses-col">
-									<h2 class="title">Become a Full-Stack Web Developer
-</h2>
+									<h2 class="title">Photoshop CC for Web Design</h2>
 								</div>
 								
 							</div>
 							<br>
 							<div class="row curses-row">
-								<div class="col-sm-12 course-description courses-col">Get the skills to work with both back-end and front-end technologies as a full-stack developer. You'll develop a solid foundation for working with servers and host configurations, performing database integrations, and troubleshooting front-end development issues.
-</div>
+								<div class="col-sm-12 course-description courses-col">The web design landscape is constantly changing, but Photoshop is still a classic. Designers use it to create UI elements, web graphics, wireframes, and functional mockups. Designs that transition beautifully and easily to production. Join staff author Justin Seeley as he reveals how Photoshop is used in the modern web design workflow.</div>
 								
 							</div>
-                        
+                        <div class="row">
+						        				
+						</div>
 						</div>
                         
                         </li>
-
-
-                                                    <li onclick="window.open('https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004')">
+                    <li onclick="window.open('https://www.udemy.com/workflow-of-responsive-web-design-from-sketching-to-style-guides/')">
 						<time>
-							<span class="hours">73</span>
+							<span class="hours">7.5</span>
 							<span class="hours-txt">Hours</span>
                             <hr class="courses-line">
 							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
                             <span class="level">Intermediate</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../img/Courses/uacity.png" />
+						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
 							<div class="row curses-row">
 								<div class="col-sm-12 courses-col">
-									<h2 class="title">Full Stack Web Developer Nanodegree
-
-
-</h2>
+									<h2 class="title">Workflow of Modern Web Design from Wireframes to Style Guide</h2>
 								</div>
 								
 							</div>
 							<br>
 							<div class="row curses-row">
-								<div class="col-sm-12 course-description courses-col">This program will prepare you for a job as a Full Stack Web Developer, and teach you to build complex server-side web applications that use powerful relational databases to persistently store data.
-
-You’ll learn to build applications that can support any front-end, and scale to support hundreds of thousands of users.
-</div>
+								<div class="col-sm-12 course-description courses-col">Learn the modern process and tools of Responsive web design using Balsamiq Mockups, Photoshop, Zeplin and Invision App.</div>
 								
 							</div>
+                        <div class="row">
+						        				
+						</div>
+						</div>
                         
+                        </li>
+					
+					<li onclick="window.open('https://www.lynda.com/learning-paths/Design/become-a-user-experience-designer')">
+						<time>
+							<span class="hours">11</span>
+							<span class="hours-txt">Hours</span>
+                            <hr class="courses-line">
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Advanced</span>
+							
+						</time>
+						<img alt="Course Website" src="../../../img/Courses/lynda.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Become a User Experience Designer</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">A modern user experience designer understands modern design concepts. They also have the research and analysis skills to design effective, compelling digital experiences across different mobile platforms, the web, and the Internet of things. This path will help you build the foundation for a solid career in UX design.</div>
+								
+							</div>
+                        <div class="row">
+						        				
+						</div>
+						</div>
+                        
+                        </li>
+                        <li onclick="window.open('https://www.lynda.com/learning-paths/Design/advance-your-skills-in-ux-design')">
+						<time>
+							<span class="hours">8</span>
+							<span class="hours-txt">Hours</span>
+                            <hr class="courses-line">
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Advanced</span>
+							
+						</time>
+						<img alt="Course Website" src="../../../img/Courses/lynda.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Advance Your Skills in UX Design</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Today's UX designers need to stay on top of cutting-edge software and know how to apply industry best practices to their workflow. Explore prototyping, mobile design considerations, validation techniques, and more so you can sharpen and expand your UX design skillset and enhance your portfolio.</div>
+								
+							</div>
+                        <div class="row">
+						        				
+						</div>
 						</div>
                         
                         </li>
 
-
-
-
-
-
-
-
+                   
 
 				</ul>
                     <div class="row course-facebook">

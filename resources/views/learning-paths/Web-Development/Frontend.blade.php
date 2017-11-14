@@ -79,15 +79,15 @@
 						<img alt="Course Website" src="../../../img/Courses/udemy.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Ultimate Web Designer & Developer Course: Build 23 Projects!</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Become a Full-Stack Developer - Learn Everything from Design to Front & Back-End Programming. </div>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Become a Full-Stack Developer - Learn Everything from Design to Front & Back-End Programming. </div>
 								
 							</div>
                         <div class="row">
@@ -109,15 +109,15 @@
 						<img alt="Course Website" src="../../../img/Courses/lynda.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Become a Front-End Web Developer</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Get the skills to build engaging, interactive user experiences on the web as a front-end web developer. Learn everything you need to design and develop user-facing code, and discover how to bring concepts to life on the browser canvas by combining essential graphic design and coding principles. </div>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Get the skills to build engaging, interactive user experiences on the web as a front-end web developer. Learn everything you need to design and develop user-facing code, and discover how to bring concepts to life on the browser canvas by combining essential graphic design and coding principles. </div>
 								
 							</div>
                         <div class="row">
@@ -139,15 +139,15 @@
 						<img alt="Course Website" src="../../../img/Courses/uacity.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Front End Developer Nanodegree program</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">In the Front End Developer Nanodegree program, you will complete eight projects and build a resume-worthy portfolio. </div>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">In the Front End Developer Nanodegree program, you will complete eight projects and build a resume-worthy portfolio. </div>
 								
 							</div>
                         

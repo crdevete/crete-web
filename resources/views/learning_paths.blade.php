@@ -236,7 +236,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Architecture CAD</h4>
                                             <p class="sub-learn">CAD technology is used in the design of tools and machinery and in the drafting and design of all types of buildings, from small residential types (houses) to the largest commercial and industrial structures (hospitals and factories).</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('architecture') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Civil CAD</h4>
                                             <p class="sub-learn">AutoCAD is used across a wide range of industries, by architects, project managers, engineers, graphic designers, and many other professionals.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('civil') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -266,7 +266,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Solid Works</h4>
                                             <p class="sub-learn">SolidWorks is a solid modeling computer-aided design (CAD) and computer-aided engineering (CAE) computer program that runs on Microsoft Windows. SolidWorks is published by Dassault Systèmes.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('mechanical') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -329,7 +329,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">UI/UX Design</h4>
                                             <p class="sub-learn">User experience design (UX, UXD, UED or XD) is the process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction with the product. User experience design encompasses traditional human–computer interaction (HCI) design, and extends it by addressing all aspects of a product or service as perceived by users.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('ui-ux') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -342,7 +342,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Logo Design</h4>
                                             <p class="sub-learn">A logo is a graphic mark, emblem, or symbol commonly used by commercial enterprises, organizations, and even individuals to aid and promote instant public recognition. There are purely graphic emblems, symbols, icons and logos, which are composed of the name of the organisation (a logotype or wordmark).</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('logo') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -373,7 +373,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">2D and 3D Animations</h4>
                                             <p class="sub-learn">2D animation figures are created or edited on the computer using 2D bitmap graphics, created and edited using with 2D vector graphics. 3D animation is digitally modeled and manipulated by an animator. The animator usually starts by creating a 3D polygon mesh to manipulate.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('animation') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -386,7 +386,7 @@
                                         <div class="info sub-learn">
                                             <h4 class="text-center sub-info sub-learn">Drawing</h4>
                                             <p class="sub-learn">Drawing is a form of visual art in which a person uses various drawing instruments to mark paper or another two-dimensional medium. Instruments include graphite pencils, pen and ink, inked brushes, wax color pencils, crayons, charcoal, chalk, pastels, various kinds of erasers, markers, styluses, various metals (such as silverpoint) and electronic drawing.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            <a href="{{ route('art') }}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
                                         </div>
                                     </div>
                                 </div>

@@ -80,8 +80,8 @@
                         <img alt="Course Website" src="../../../img/Courses/udemy.png" />
                         <div class="info">
                             
-                            <div class="row">
-                                <div class="col-sm-12">
+                            <div class="row curses-row">
+                                <div class="col-sm-12 courses-col">
                                     <h2 class="title">The Complete iOS 10 & Swift 3 Developer Course
 
 </h2>
@@ -89,8 +89,8 @@
                                 
                             </div>
                             <br>
-                            <div class="row">
-                                <div class="col-sm-12 course-description">Learn iOS App Development by building 21 iOS apps using Swift 3 & Xcode 8. Includes free web hosting, assets & ebook.
+                            <div class="row curses-row">
+                                <div class="col-sm-12 course-description courses-col">Learn iOS App Development by building 21 iOS apps using Swift 3 & Xcode 8. Includes free web hosting, assets & ebook.
 
 
 </div>
@@ -120,8 +120,8 @@
                         <img alt="Course Website" src="../../../img/Courses/uacity.png" />
                         <div class="info">
                             
-                            <div class="row">
-                                <div class="col-sm-12">
+                            <div class="row curses-row">
+                                <div class="col-sm-12 courses-col">
                                     <h2 class="title">Become an iOS Developer
 
 </h2>
@@ -129,11 +129,8 @@
                                 
                             </div>
                             <br>
-                            <div class="row">
-                                <div class="col-sm-12 course-description">Build an App for the iPhone and iPad
-
-
-</div>
+                            <div class="row curses-row">
+                                <div class="col-sm-12 course-description courses-col">Build an App for the iPhone and iPad.</div>
                                 
                             </div>
                         <div class="row">

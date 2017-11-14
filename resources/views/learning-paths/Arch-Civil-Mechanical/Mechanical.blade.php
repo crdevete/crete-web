@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Business</title>
+    <title>Mechanical</title>
     <link rel="shortcut icon" type="image/png" href="../../img/CRETE_icon.png" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -49,7 +49,7 @@
                 <div class="col-lg-12">
 
                     <a href="../../index.html" id="panel-header-form"><img id="form-logo" src="../../img/CRETE_icon.png"><h4 id="panel-header-text">Crete Agency</h4></a>
-                    <h5 id="panel-header-text-small">Business</h5>
+                    <h5 id="panel-header-text-small">Mechanical</h5>
 
 
                 </div>
@@ -67,82 +67,96 @@
 		<div class="row">
 			<div class="[ col-xs-12 col-sm-offset-2 col-sm-12 ]">
 				<ul class="event-list">
-                   <li onclick="window.open('https://www.edx.org/micromasters/marketing-digital-world')">
-                        <time>
-                            <span class="hours">40</span>
-                            <span class="hours-txt">Hours</span>
+                   <li onclick="window.open('https://www.udemy.com/intro-to-mechanical-cad/')">
+						<time>
+							<span class="hours">7</span>
+							<span class="hours-txt">Hours</span>
                             <hr class="courses-line">
-                            <span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
-                            <span class="level">Beginner</span>
-                            
-                        </time>
-                        <img alt="Course Website" src="../../img/Courses/edx.png" />
-                        <div class="info">
-                            
-                            <div class="row curses-row">
-                                <div class="col-sm-12 courses-col">
-                                    <h2 class="title">Marketing in a Digital World
-
-
-
-</h2>
-                                </div>
-                                
-                            </div>
-                            <br>
-                            <div class="row curses-row">
-                                <div class="col-sm-12 course-description courses-col">Advance your career and help your organisation succeed by developing the in-demand marketing skills needed in a digital world.
-
-
-</div>
-                                
-                            </div>
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Begginer</span>
+							
+						</time>
+						<img alt="Course Website" src="../../img/Courses/udemy.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Introduction to Mechanical CAD</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">A comprehensive guide to designing 3D objects using DesignSpark Mechanical.</div>
+								
+							</div>
                         <div class="row">
-                                                
-                        </div>
-                        </div>
+						        				
+						</div>
+						</div>
+                        
+                        </li>
+                    <li onclick="window.open('https://www.lynda.com/learning-paths/CAD/become-a-certified-cad-designer-with-solidworks')">
+						<time>
+							<span class="hours">20</span>
+							<span class="hours-txt">Hours</span>
+                            <hr class="courses-line">
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Intermediate</span>
+							
+						</time>
+						<img alt="Course Website" src="../../img/Courses/lynda.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Become a Certified CAD Designer with SOLIDWORKS</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Master the basics of SOLIDWORKS, the industry-leading CAD software. This path includes essential training, project-based courses, and certification prep that will help advance your manufacturing career.</div>
+								
+							</div>
+                        <div class="row">
+						        				
+						</div>
+						</div>
+                        
+                        </li>
+					
+					<li onclick="window.open('https://www.lynda.com/learning-paths/CAD/master-solidworks')">
+						<time>
+							<span class="hours">11</span>
+							<span class="hours-txt">Hours</span>
+                            <hr class="courses-line">
+							<span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                            <span class="level">Advanced</span>
+							
+						</time>
+						<img alt="Course Website" src="../../img/Courses/lynda.png" />
+						<div class="info">
+							
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
+									<h2 class="title">Master SOLIDWORKS</h2>
+								</div>
+								
+							</div>
+							<br>
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">SOLIDWORKS is one of the world's leading CAD software packages for product design and development. In this learning path, you'll build on a basic knowledge of SOLIDWORKS, try your hand at a few projects, and explore rendering and visualization.</div>
+								
+							</div>
+                        <div class="row">
+						        				
+						</div>
+						</div>
                         
                         </li>
 
-
-                                          <li onclick="window.open('https://www.udemy.com/learn-digital-marketing-course')">
-                        <time>
-                            <span class="hours">19.5</span>
-                            <span class="hours-txt">Hours</span>
-                            <hr class="courses-line">
-                            <span class="hours-txt"><i class="fa fa-star" aria-hidden="true"></i></span>
-                            <span class="level">Beginner</span>
-                            
-                        </time>
-                        <img alt="Course Website" src="../../img/Courses/udemy.png" />
-                        <div class="info">
-                            
-                            <div class="row curses-row">
-                                <div class="col-sm-12 courses-col">
-                                    <h2 class="title">The Complete Digital Marketing Course 2017 - 12 Courses in 1
-</h2>
-                                </div>
-                                
-                            </div>
-                            <br>
-                            <div class="row curses-row">
-                                <div class="col-sm-12 course-description courses-col">Master Digital Marketing & Grow Your Business: SEO, Facebook, YouTube, Social Media Marketing, Google Analytics & More!
-
-</div>
-                                
-                            </div>
-                        <div class="row">
-                                                
-                        </div>
-                        </div>
-                        
-                        </li>
-
-
-
-
-
-
+                   
 
 				</ul>
                     <div class="row course-facebook">

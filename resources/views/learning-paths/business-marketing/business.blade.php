@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Business</title>
-    <link rel="shortcut icon" type="image/png" href="../../../img/CRETE_icon.png" />
+    <link rel="shortcut icon" type="image/png" href="../../img/CRETE_icon.png" />
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -48,7 +48,7 @@
 
                 <div class="col-lg-12">
 
-                    <a href="../../index.html" id="panel-header-form"><img id="form-logo" src="../../../img/CRETE_icon.png"><h4 id="panel-header-text">Crete Agency</h4></a>
+                    <a href="../../index.html" id="panel-header-form"><img id="form-logo" src="../../img/CRETE_icon.png"><h4 id="panel-header-text">Crete Agency</h4></a>
                     <h5 id="panel-header-text-small">Business</h5>
 
 
@@ -64,7 +64,7 @@
 
 
  <div class="container">
-		<div class="row">
+		<div class="row ">
 			<div class="[ col-xs-12 col-sm-offset-2 col-sm-12 ]">
 				<ul class="event-list">
                     <li onclick="window.open('https://www.edx.org/micromasters/iimbx-business-management')">
@@ -76,11 +76,11 @@
                             <span class="level">Beginner</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../img/Courses/edx.png" />
+						<img alt="Course Website" src="../../img/Courses/edx.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Business Management
 
 </h2>
@@ -88,14 +88,12 @@
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Master the essentials of managing a successful business including accounting, finance, marketing, operations, people management and strategy.
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Master the essentials of managing a successful business including accounting, finance, marketing, operations, people management and strategy.
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>
@@ -110,24 +108,22 @@
                             <span class="level">Beginner</span>
 							
 						</time>
-						<img alt="Course Website" src="../../../img/Courses/edx.png" />
+						<img alt="Course Website" src="../../img/Courses/edx.png" />
 						<div class="info">
 							
-							<div class="row">
-								<div class="col-sm-12">
+							<div class="row curses-row">
+								<div class="col-sm-12 courses-col">
 									<h2 class="title">Business Analytics</h2>
 								</div>
 								
 							</div>
 							<br>
-							<div class="row">
-								<div class="col-sm-12 course-description">Learn how to harness the power of analytics to make better business decisions and advance your career.
+							<div class="row curses-row">
+								<div class="col-sm-12 course-description courses-col">Learn how to harness the power of analytics to make better business decisions and advance your career.
 </div>
 								
 							</div>
-                        <div class="row">
-						        				
-						</div>
+                        
 						</div>
                         
                         </li>

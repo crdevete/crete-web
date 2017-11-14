@@ -39,4 +39,40 @@ class learningController extends Controller
     {
      return view('learning-paths/business-marketing/marketing');
     }
+
+
+    //Design
+    public function getLogo()
+    {
+     return view('learning-paths/Design/Logo');
+    }
+    public function getUi()
+    {
+     return view('learning-paths/Design/Web-Mobile-UI-UX');
+    }
+
+    //Art and Animation
+    public function getArt()
+    {
+     return view('learning-paths/Art-Animations/Art');
+    }
+    public function getAnimation()
+    {
+     return view('learning-paths/Art-Animations/Animations');
+    }
+
+        
+    //Arch-Civil-Mechanical
+        public function getArchitecture()
+        {
+         return view('learning-paths/Arch-Civil-Mechanical/Architecture');
+        }
+        public function getCivil()
+        {
+         return view('learning-paths/Arch-Civil-Mechanical/Civil');
+        }
+         public function getMechanical()
+        {
+         return view('learning-paths/Arch-Civil-Mechanical/Mechanical');
+        }
 }
