@@ -55,6 +55,8 @@
 
         <hr>
 
+        {!! Form::open(['method'=>'POST','action'=>'HomeController@postSurveyArabic','id'=>'form1'])  !!}
+
         <div class="row">
 
             <div class="form-group ">
@@ -64,25 +66,24 @@
                 </div>
 
 
-
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label ><input type="radio" name="optradioone">طالب مدرسى</label>
+                        <label ><input type="radio" name="question_1">طالب مدرسى</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioone">طالب جامعى</label>
+                        <label><input type="radio" name="question_1">طالب جامعى</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioone">موظف</label>
+                        <label><input type="radio" name="question_1">موظف</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioone">عاطل عن العمل</label>
+                        <label><input type="radio" name="question_1">عاطل عن العمل</label>
                     </div>
                 </div>
             </div>
@@ -98,17 +99,17 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiotwo">نعم</label>
+                        <label><input type="radio" name="question_2" value="نعم">نعم</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiotwo">لا</label>
+                        <label><input type="radio" name="question_2" value="لا">لا</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiotwo">لا أعرف</label>
+                        <label><input type="radio" name="question_2" value="لا أعرف">لا أعرف</label>
                     </div>
                 </div>
 
@@ -124,17 +125,17 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiothree">نعم</label>
+                        <label><input type="radio" name="question_3" value="نعم">نعم</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiothree">لا</label>
+                        <label><input type="radio" name="question_3" value="لا">لا</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiothree">غير متأكد</label>
+                        <label><input type="radio" name="question_3" value="غير متأكد">غير متأكد</label>
                     </div>
                 </div>
 
@@ -150,25 +151,25 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiofour">0</label>
+                        <label><input type="radio" name="question_4" value="0">0</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiofour">أقل من عام</label>
+                        <label><input type="radio" name="question_4" value="أقل من عام">أقل من عام</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiofour">عام</label>
+                        <label><input type="radio" name="question_4" value="عام">عام</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiofour">عامين</label>
+                        <label><input type="radio" name="question_4" value="عامين">عامين</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiofour">أكثر من عامين</label>
+                        <label><input type="radio" name="question_4" value="أكثر من عامين">أكثر من عامين</label>
                     </div>
                 </div>
 
@@ -184,30 +185,30 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="checkbox" name="optradiofive">لا أعمل كحر</label>
+                        <label><input type="checkbox" name="question_5">لا أعمل كحر</label>
                     </div>
                 </div>
                 <div class="row">
 
                     <div class="radio right-float Arabic-select">
-                        <label><input type="checkbox" name="optradiofive">مواقع أجنبية مثل Upwork, Freelancer</label>
+                        <label><input type="checkbox" name="question_5" value="مواقع أجنبية مثل Upwork, Freelancer">مواقع أجنبية مثل Upwork, Freelancer</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="checkbox" name="optradiofive">مواقع عربية مثل مستقل و خمسات </label>
+                        <label><input type="checkbox" name="question_5" value="مواقع عربية مثل مستقل و خمسات">مواقع عربية مثل مستقل و خمسات </label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="checkbox" name="optradiofive">دوام جزئى</label>
+                        <label><input type="checkbox" name="question_5" value="دوام جزئ">دوام جزئى</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="checkbox" name="optradiofive">أصدقاء</label>
+                        <label><input type="checkbox" name="question_5" value="أصدقاء">أصدقاء</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="checkbox" name="optradiofive">أخرى</label>
+                        <label><input type="checkbox" name="question_5" value="أخرى">أخرى</label>
                     </div>
                 </div>
 
@@ -221,25 +222,25 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiosix">نعم</label>
+                        <label><input type="radio" name="question_6" value="نعم">نعم</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiosix">لا</label>
+                        <label><input type="radio" name="question_6" value="لا">لا</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiosix">من خلال الانترنت</label>
+                        <label><input type="radio" name="question_6" value="من خلال الانترنت">من خلال الانترنت</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiosix">خارج الانترنت</label>
+                        <label><input type="radio" name="question_6" value="خارج الانترنت">خارج الانترنت</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradiosix">غير متأكد</label>
+                        <label><input type="radio" name="question_6" value="غير متأكد">غير متأكد</label>
                     </div>
                 </div>
             </div>
@@ -250,21 +251,21 @@
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioseven">نعم</label>
+                        <label><input type="radio" name="question_7" value="نعم">نعم</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioseven">لا</label>
+                        <label><input type="radio" name="question_7" value="لا">لا</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioseven">ممكن</label>
+                        <label><input type="radio" name="question_7" value="ممكن">ممكن</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioseven">لا أعرف</label>
+                        <label><input type="radio" name="question_7" value="لا اعرف">لا أعرف</label>
                     </div>
                 </div>
             </div>
@@ -277,21 +278,21 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioeight">مرتب شهرى</label>
+                        <label><input type="radio" name="question_8" value="مرتب شهرى">مرتب شهرى</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioeight">العمل بالساعة</label>
+                        <label><input type="radio" name="question_8" value="العمل بالساعة">العمل بالساعة</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioeight">أي منهم</label>
+                        <label><input type="radio" name="question_8" value="أي منهم">أي منهم</label>
                     </div>
                 </div><div class="row ">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradioeight">غير متأكد</label>
+                        <label><input type="radio" name="question_8" value="غير متأكد">غير متأكد</label>
                     </div>
                 </div>
 
@@ -302,26 +303,26 @@
 
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradionine">أقل من $2</label>
+                        <label><input type="radio" name="question_9" value="أقل من $2">أقل من $2</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradionine">من 2$ الى $5</label>
+                        <label><input type="radio" name="question_9" value="من 2$ الى $5">من 2$ الى $5</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradionine">من $5 الى $10</label>
+                        <label><input type="radio" name="question_9" value="من $5 الى $10">من $5 الى $10</label>
                     </div>
                 </div><div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradionine">من $10 الى $20</label>
+                        <label><input type="radio" name="question_9" value="من $10 الى $20">من $10 الى $20</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="radio right-float Arabic-select">
-                        <label><input type="radio" name="optradionine">أكثر من $20</label>
+                        <label><input type="radio" name="question_9" value="أكثر من $20">أكثر من $20</label>
                     </div>
                 </div>
 
@@ -329,24 +330,24 @@
 
             <div class="form-group">
                 <div class="col-lg-12">
-                    <textarea placeholder="..لديك تعليق ؟ من فضلك شاركنا تعليقك هنا" class="form-control Arabic" rows="8" id="comment"></textarea>
+                    <textarea placeholder="..لديك تعليق ؟ من فضلك شاركنا تعليقك هنا" class="form-control Arabic" rows="8" id="comment" name="comment"></textarea>
                 </div>
             </div>
 
 
 
             <form id="captchasubmit" action="?" method="POST">
-                <div class="col-lg-12">
+                <!--<div class="col-lg-12">
                     <div class="col-lg-12">
 
 
                         <div class="g-recaptcha" data-sitekey="6LcKFTQUAAAAAL4ao-dFItf0nr42kZjnMZZdkLNA"></div>
                     </div>
                 </div>
+
+                -->
                 <div class="col-lg-12">
-
-
-                    <button id="submitform" type="button" class="btn btn-primary">إرسال</button>
+                    <button id="submitform" type="submit" class="btn btn-primary">إرسال</button>
                 </div>
             </form>
 
@@ -366,6 +367,19 @@
 <script type="text/javascript" src="{{asset('js/jquery.1.11.1.js')}}"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="{{asset('js/bootstrap.js')}}"></script>
+
+<script type="text/javascript">
+    $('#form1').submit(function() {
+        if ($('input:checkbox', this).is(':checked') &&
+            $('input:radio', this).is(':checked')) {
+            // everything's fine...
+        } else {
+            alert('Please select an option for each question!');
+            return false;
+        }
+    });
+
+</script>
 
 
 <!-- Javascripts
