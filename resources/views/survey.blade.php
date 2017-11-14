@@ -16,6 +16,7 @@
 
     <div class="panel">
         <div class="row">
+           <a href="index.html" class="language-switcher"><p>شاهد هذا الاستطلاع باالعربية<i class="fa fa-language" aria-hidden="true"></i></p></a>
             <div class="col-lg-12">
                 <a href="{{route('home')}}" id="panel-header-form"><img id="form-logo" src="{{url('img/CRETE_icon.png')}}"><h4 id="panel-header-text">Crete Agency</h4></a><h5 id="panel-header-text-small">Survey</h5>
             </div>

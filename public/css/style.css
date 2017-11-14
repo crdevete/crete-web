@@ -1,4 +1,8 @@
-﻿
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+
+
+
 *{
      box-sizing: border-box;
 }
@@ -987,7 +991,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.56), 0 2px 10px 0 rgba(0, 0, 0, 0.52);
 
 }
 
-.col-xs-12.col-sm-12.col-md-12.col-lg-12:not(.btn):hover{
+.col-xs-12.col-sm-12.col-md-12.col-lg-12:not(.btn):not(.sub-learn):hover{
 transform: scale(1.1);
 transition: all 0.5s ease 0s;
 }
@@ -1077,16 +1081,12 @@ margin-bottom: 10px;
 
 }
 
-/*courses*/
-
 /*Thank you*/
-
 
 #thank_you{
 text-align: center;
 
 }
-
 
 #redirect-txt {
 	color: #f7b21d;
@@ -1094,3 +1094,76 @@ text-align: center;
     margin-bottom: 30px;
 }
 
+/*Arabic*/
+
+.Arabic{
+text-align: right;
+}
+
+/*for Selects*/
+.Arabic-select {
+    direction: rtl;
+    text-align: right;
+}
+
+.right-float{
+    float: right!important;
+}
+
+.left-float {
+	float: left!important;
+}
+
+.radio.right-float.Arabic-select {
+   
+    margin-right: 40px;
+}
+
+.radio.right-float.Arabic-select input[type="radio"] {
+    margin-right: -20px;
+}
+
+.radio.right-float.Arabic-select input[type="checkbox"] {
+    margin-right: -20px!important;
+    margin-left: 10px;
+}
+
+.navbar-header.Arabic-nav {
+    float: right;
+    margin-right: 30px!important;
+    direction: rtl;
+}
+
+button.navbar-toggle.Arabic-toogle {
+    position: absolute;
+    left: 10px;
+}
+
+.navbar-collapse.navbar-right.navbar-main-collapse.left-float.collapse.in.Arabic-collapse {
+    float: right!important;
+    margin-top: 50px;
+}
+
+i.fa.fa-language {
+    margin: 5px;
+}
+
+a.language-switcher p {
+    color: black;
+    text-align: center;
+}
+
+body.Arabic-body{
+
+font-family: 'El Messiri', sans-serif;
+}
+
+.row.course-facebook {
+    margin: 30px;
+    text-align: center;
+}
+
+small#coursesHelp {
+    color: #f6ab09;
+    font-weight: 700;
+}

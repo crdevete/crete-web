@@ -31,81 +31,89 @@
 
 
 
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-                <div class="box show-more">
-                    <div class="box-icon ">
-                        <span class="fa fa-3x fa-code"></span>
-                    </div>
-                    <div class="info">
-                        <h4 class="text-center">Web Development</h4>
-                        <p class="">Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services.</p>
-                        <div class="row info-row">
-                            <div class="learn-hide">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
-                                    <div class="box sub-box sub-learn">
-                                        <div class="box-icon sub-learn">
-                                            <span class="fa fa-2x fa-desktop sub-learn"></span>
-                                        </div>
-                                        <div class="info sub-learn">
-                                            <h4 class="text-center sub-info sub-learn">Web Design</h4>
-                                            <p class="sub-learn">The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
-                                    <div class="box sub-box sub-learn">
-                                        <div class="box-icon sub-learn">
-                                            <span class="fa fa-2x fa-html5 sub-learn"></span>
-                                        </div>
-                                        <div class="info sub-learn">
-                                            <h4 class="text-center sub-info sub-learn">Front-End Development</h4>
-                                            <p class="sub-learn">Front-end web development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front-end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+           <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                    <div class="box show-more">
+                        <div class="box-icon ">
+                            <span class="fa fa-3x fa-code"></span>
                         </div>
+                        <div class="info">
+                            <h4 class="text-center">Web Development</h4>
+                            <p class="">Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services.</p>
+                            <div class="row info-row">
+                                <div class="learn-hide">
+                                    
 
-
-                        <div class="row info-row">
-                            <div class="learn-hide">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
-                                    <div class="box sub-box sub-learn">
-                                        <div class="box-icon sub-learn">
-                                            <span class="fa fa-2x fa-database sub-learn"></span>
-                                        </div>
-                                        <div class="info sub-learn">
-                                            <h4 class="text-center sub-info sub-learn">Back-End Development</h4>
-                                            <p class="sub-learn">A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system. Back-end developers also create and maintain the entire back-end of a system, which consists of the core application logic, databases, data and application integration, API and other back-end processes.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
+                                        <div class="box sub-box sub-learn">
+                                            <div class="box-icon sub-learn">
+                                                <span class="fa fa-2x fa-html5 sub-learn"></span>
+                                            </div>
+                                            <div class="info sub-learn">
+                                                <h4 class="text-center sub-info sub-learn">Front-End Development</h4>
+                                                <p class="sub-learn">Front-end web development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front-end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.</p>
+                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
-                                    <div class="box sub-box sub-learn">
-                                        <div class="box-icon sub-learn">
-                                            <span class="fa fa-2x fa-recycle sub-learn"></span>
-                                        </div>
-                                        <div class="info sub-learn">
-                                            <h4 class="text-center sub-info sub-learn">Full-Stack Development</h4>
-                                            <p class="sub-learn">Being a full-stack developer requires you to know about all the front-end technologies and all the back-end technologies. Such technologies like JavaScript, Node.js, React.js, Angular.js, JSON, MongoDB and Cloud etc. He is one person who develop websites and web applications on the front end, and work with servers and databases on the back-end Combination of both the front-end and the back-end makes you a full-stack developer.</p>
-                                            <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+									
+									
+									<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
+                                        <div class="box sub-box sub-learn">
+                                            <div class="box-icon sub-learn">
+                                                <span class="fa fa-2x fa-server sub-learn"></span>
+                                            </div>
+                                            <div class="info sub-learn">
+                                                <h4 class="text-center sub-info sub-learn">Back-End Development</h4>
+                                                <p class="sub-learn">A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system. Back-end developers also create and maintain the entire back-end of a system, which consists of the core application logic, databases, data and application integration, API and other back-end processes.</p>
+                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            </div>
                                         </div>
                                     </div>
+									
+									
+									
                                 </div>
                             </div>
+
+
+                            <div class="row info-row">
+                                <div class="learn-hide">
+								 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
+                                        <div class="box sub-box sub-learn">
+                                            <div class="box-icon sub-learn">
+                                                <span class="fa fa-2x fa-recycle sub-learn"></span>
+                                            </div>
+                                            <div class="info sub-learn">
+                                                <h4 class="text-center sub-info sub-learn">Full-Stack Development</h4>
+                                                <p class="sub-learn">Being a full-stack developer requires you to know about all the front-end technologies and all the back-end technologies. Such technologies like JavaScript, Node.js, React.js, Angular.js, JSON, MongoDB and Cloud etc. He is one person who develop websites and web applications on the front end, and work with servers and databases on the back-end Combination of both the front-end and the back-end makes you a full-stack developer.</p>
+                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 sub-learn">
+                                        <div class="box sub-box sub-learn">
+                                            <div class="box-icon sub-learn">
+                                                <span class="fa fa-2x fa-database sub-learn"></span>
+                                            </div>
+                                            <div class="info sub-learn">
+                                                <h4 class="text-center sub-info sub-learn">Database</h4>
+                                                <p class="sub-learn">A database is an organized collection of data. A relational database, more restrictively, is a collection of schemas, tables, queries, reports, views, and other elements. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.</p>
+                                                <a href="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn sub-learn">Start Learning</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                   
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
+
             </div>
-
-
-        </div>
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
@@ -526,6 +534,11 @@
 
 
         </div>
+        
+        <div class="row course-facebook">
+					<small id="coursesHelp" class="form-text text-muted">NOTE : If you can't afford any of these courses or need it for free, Please ask for free version using course name on our <a style="color: #3B5998" target="_blank" href="https://www.facebook.com/groups/1935149636805516">Facebook Group. <i class="fa fa-facebook-square" aria-hidden="true"></i></a></small>	        				
+				</div>
+        
     </div>
 
 

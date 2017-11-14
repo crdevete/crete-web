@@ -237,15 +237,8 @@ width: auto;
 height: auto;
 }
 
-small#coursesHelp {
-    color: #f6ab09;
-    font-weight: 700;
-}
 
-.row.course-facebook {
-    margin: 30px;
-    text-align: center;
-}
+
 small#coursesNote {
     color: #f6ab09;
     font-weight: 700;
@@ -266,5 +259,18 @@ h2 {
     line-height: 25px;
 }
 
+@media screen and (max-width: 500px) {
+	.col-sm-12.courses-col {
+    padding: unset!important;
+}
+
+.row.curses-row {
+    margin: unset!important;
+}
+	.event-list .info .row {
+
+    padding: 10px;
+}
+}
 
 
