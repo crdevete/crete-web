@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>كريت - وكالة لتصميم وتطوير المواقع الالكترونية</title>
+    <title>CRETE - شركة لتصميم وتطوير المواقع الالكترونية</title>
     <link rel="shortcut icon" type="image/png" href="{{url('img/CRETE_icon.png')}}"/>
 
 
@@ -74,12 +74,13 @@
             <ul class="nav navbar-nav">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden"> <a href="#page-top"></a> </li>
-                <li> <a class="page-scroll" href="#about">عنا</a> </li>
-                <li> <a class="page-scroll" href="#services">خدماتنا</a> </li>
-                <li> <a class="page-scroll" href="#works">اعمالنا</a> </li>
-                <li> <a class="page-scroll" href="#team">فريقنا</a> </li>
-                <li> <a class="page-scroll" href="#testimonials">اراء عملائنا</a> </li>
+                <li> <a class="page-scroll" href="index.html">English</a> </li>
                 <li> <a class="page-scroll" href="#contact">تواصل معنا</a> </li>
+                <li> <a class="page-scroll" href="#testimonials">اراء عملائنا</a> 
+                </li><li> <a class="page-scroll" href="#team">فريقنا</a> </li>
+                <li> <a class="page-scroll" href="#works">اعمالنا</a> </li>
+                <li> <a class="page-scroll" href="#services">خدماتنا</a> </li>
+                <li> <a class="page-scroll" href="#about">نحن</a> </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -93,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <h1> نحن <span class="brand-heading">كريت</span>  </h1>
+                    <h1><span class="brand-heading">CRETE</span> نحن   </h1>
                     <p class="intro-text">.وكالة لتصميم وتطوير المواقع الالكترونية <br> !نحن نحب ما نفعل</p>
                     <a href="#about" class="btn btn-default page-scroll">اعرف اكثر</a> </div>
             </div>
@@ -104,7 +105,7 @@
 <div id="about">
     <div class="container">
         <div class="section-title text-center center">
-            <h2>عنا</h2>
+            <h2>نحن</h2>
             <hr>
         </div>
         <div class="row">
@@ -331,8 +332,8 @@
             <div class="col-md-4 col-sm-12 col-xs-12 js-wp-2">
                 <div class="thumbnail"> <img src="img/team/Bana.jpg" alt="..." class="img-thumbnail team-img">
                     <div class="caption">
-                        <h3>احمد حسنين</h3>
-                        <p>Front End &amp; Wordpress Developer</p>
+                        <h3>احمد البنا</h3>
+                        <p>Front End Web Developer</p>
                     </div>
                 </div>
             </div>
@@ -445,7 +446,7 @@
                     <p class="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-default">ارسل الرسالة</button>
+                <button type="submit" class="btn btn-default">ارسال</button>
             </form>
             <div class="social">
                 <h3>تابعنا</h3>
@@ -459,7 +460,7 @@
 </div>
 <div id="footer">
     <div class="container">
-        <p>Copyright &copy; Crete. 2017</p>
+        <p>جميع الحقوق محفوظة &copy; Crete. 2017</p>
     </div>
 </div>
 

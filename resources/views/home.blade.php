@@ -142,8 +142,8 @@
             <div class="col-md-4 col-sm-12 col-xs-12 js-wp-2">
                 <div class="thumbnail"> <img src="{{url('img/team/Bana.jpg')}}" alt="..." class="img-thumbnail team-img">
                     <div class="caption">
-                        <h3>Ahmed Hasaneen</h3>
-                        <p>Front End &amp; Wordpress Developer</p>
+                        <h3>Ahmed El Bana</h3>
+                        <p>Front End Web Developer</p>
                     </div>
                 </div>
             </div>
